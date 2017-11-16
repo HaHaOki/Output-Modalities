@@ -7,12 +7,14 @@ return !Math.round(Math.random());
 function makeBeep() {
     //alert(random());
     if(random == true) {
-        navigator.notification.beep(1);
-        navigator.notification.message(True);
+        //navigator.notification.beep(1);
+        //navigator.notification.message(True);
+        alert("True");
     }
     else{
-        navigator.notification.beep(2);
-        navigator.notification.message(False);
+        //navigator.notification.beep(2);
+        //navigator.notification.message(False);
+        alert("False");
     }
 }
 
